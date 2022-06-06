@@ -1,0 +1,11 @@
+.homebody{
+    min-height: 550px;
+   
+}
+
+.landingpage{
+    height: 100vh;
+    background-image: url('https://www.studying-in-germany.org/wp-content/uploads/2013/02/study.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
