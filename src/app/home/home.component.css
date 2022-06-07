@@ -2,10 +2,108 @@
     min-height: 550px;
    
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Sura:wght@700&display=swap');
 .landingpage{
-    height: 100vh;
-    background-image: url('https://www.studying-in-germany.org/wp-content/uploads/2013/02/study.jpg');
+    height: 95vh;
+    background-image: url('https://cdn.pixabay.com/photo/2019/11/19/22/24/watch-4638673_960_720.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 80px;
+    font-family: 'Sura', serif;
+}
+
+.type{
+    padding-top: 165px;
+    color: whitesmoke;
+
+}
+
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+  /* 5 */
+  .btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+  }
+  .btn-5:hover {
+    color: #f0094a;
+    background: wheat;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  .testimony{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+  }
+
+  .item .img{
+    min-height: 300px;
+  }
+
+  .carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+ .carosel33{
+   width: 600px;
+ }
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
